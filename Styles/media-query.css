@@ -7,22 +7,33 @@
   }
 }
 
-@media all and (max-width: 880px) {
+@media all and (max-width: 699px) {
   :root {
-    font-size: 12px;
+    font-size: 10px;
   }
-.introduction{
-    padding-right: 6em;
 }
 
-.resume-left{
-    padding-right: 6rem;
-}
+@media all and (max-width: 590px) {
 
+.medium{
+    width: 10rem
 }
+h1{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1rem;
+}
+} 
+@media all and (max-width: 430px) {
 
-/* @media all and (max-width: 480px) {
-:root{
-    font-size: px;
+.medium{
+    width: 10rem
 }
-}  */
+h1{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1rem;
+}
+} 
