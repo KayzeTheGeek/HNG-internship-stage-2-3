@@ -1,0 +1,28 @@
+@media all and (max-width: 1200px) {
+}
+
+@media all and (max-width: 991px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 880px) {
+  :root {
+    font-size: 12px;
+  }
+.introduction{
+    padding-right: 6em;
+}
+
+.resume-left{
+    padding-right: 6rem;
+}
+
+}
+
+/* @media all and (max-width: 480px) {
+:root{
+    font-size: px;
+}
+}  */
