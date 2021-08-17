@@ -14,9 +14,11 @@
 }
 
 @media all and (max-width: 590px) {
-
 .medium{
-    width: 10rem
+font-size: 0.6rem;
+}
+.small{
+font-size: 0.5rem;
 }
 h1{
     font-size: 2rem;
@@ -27,9 +29,7 @@ h4{
 } 
 @media all and (max-width: 430px) {
 
-.medium{
-    width: 10rem
-}
+
 h1{
     font-size: 1.5rem;
 }

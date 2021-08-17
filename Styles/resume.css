@@ -82,6 +82,7 @@ header {
   margin-bottom: 1rem;
 }
 
+
 .small {
   font-size: 0.8rem;
 }
@@ -121,8 +122,4 @@ margin-bottom: 1.7rem;
 .hng-logo a{
   text-decoration: none;
   color: blue;
-}
-
-@media screen {
-  
 }
