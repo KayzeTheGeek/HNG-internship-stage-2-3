@@ -1,0 +1,123 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #301934;
+  box-sizing: border-box;
+}
+h1,
+h4,
+h6,
+p {
+  margin: 0;
+}
+
+p{
+    font-size: 1.1rem;
+}
+h1 {
+    font-family: "STIX Two Text", serif;
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+h4{
+    font-family: "STIX Two Text", serif;
+    font-size: 1.25rem;
+}
+
+h4 span{
+    font-weight: 400;
+}
+.container {
+  border-bottom: 3px solid blue;
+  border-top: 3px solid blue;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 83.3%;
+  margin: auto;
+}
+/* header */
+
+header {
+  display: flex;
+  flex: 1;
+  margin-bottom: 3.2rem;
+}
+
+.introduction{
+  width: 70%;
+}
+.contact {
+  width: 30%;
+}
+
+/* resume-container */
+
+
+.column-header {
+    font-size: 1rem;
+  margin-bottom: 1rem;
+  color: blue;
+}
+.resume-container {
+  display: flex;
+  flex: 1;
+}
+
+.resume-left{
+    width: 70%;
+}
+.resume-right {
+  width: 30%;
+}
+
+.resume-left > div,
+.resume-right > div {
+  margin-bottom: 2.3rem;
+}
+
+.resume-left > div > div *,
+.resume-right p {
+  margin-bottom: 0.5rem;
+}
+.resume-left > div > div:nth-child(2) {
+  margin-bottom: 1rem;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.linkin,
+.email {
+  color: blue;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+}
+
+.phone-no {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.1rem;
+}
+
+.awards p{
+margin-bottom: 1.7rem;
+}
+/* logo */
+.hng-logo{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hng-logo p{
+  font-size: 1.1rem;
+  margin-left: 1rem;
+}
+
+.hng-logo a{
+  text-decoration: none;
+  color: blue;
+}
