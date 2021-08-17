@@ -52,7 +52,6 @@ header {
 
 /* resume-container */
 
-
 .column-header {
     font-size: 1rem;
   margin-bottom: 1rem;
@@ -105,7 +104,9 @@ header {
 .awards p{
 margin-bottom: 1.7rem;
 }
+
 /* logo */
+
 .hng-logo{
   margin-top: 1rem;
   display: flex;
